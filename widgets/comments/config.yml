@@ -1,12 +1,12 @@
-layout : disqus
+layout : facebook
 disqus :
-  short_name : jekyllbootstrap
+  short_name : jjbohn
 livefyre :
   site_id : 123
 intensedebate :
   account : 123abc
 facebook :
-  appid : 123
-  num_posts: 5
+  appid : 404259102982501
+  num_posts: 10
   width: 580
   colorscheme: light

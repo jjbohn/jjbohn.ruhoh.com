@@ -1,11 +1,11 @@
-title : Blog Title
-tagline: Blog Tagline
+title : John Bohn
+tagline: ~
 author :
-  name : Firstname Lastname
+  name : John Bohn
   email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  github : jjbohn
+  twitter : jjbohn
+  feedburner : ~
 
 navigation :
   - archive.html
