@@ -1,4 +1,4 @@
-layout : facebook
+layout : disqus
 disqus :
   short_name : jjbohn
 livefyre :
