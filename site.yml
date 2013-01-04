@@ -7,10 +7,5 @@ author :
   twitter : jjbohn
   feedburner : ~
 
-navigation :
-  - archive.html
-  - tags.html
-  - categories.html
-  - pages.html
-  - about.md
+navigation : ~
 
