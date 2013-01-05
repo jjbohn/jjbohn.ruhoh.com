@@ -5,7 +5,7 @@ html, body {
 .navbar {
   margin-bottom: 0;
 }
-.navbar .container{ 
+.navbar .container{
   width:940px;
 }
 .container > footer {
@@ -41,7 +41,7 @@ html, body {
   padding-top:10px;
   border-top:3px solid #eee;
 }
-.post > h3.title span.date { 
+.post > h3.title span.date {
   position:absolute;
   right:0;
   font-size:0.9em;
