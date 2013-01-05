@@ -1,0 +1,8 @@
+#!/bin/bash --login
+rvm @ruhoh
+ruhoh compile
+
+cd compiled
+s3cmd put --recursive --acl-public . s3://jjbohn.info
+cd ..
+
