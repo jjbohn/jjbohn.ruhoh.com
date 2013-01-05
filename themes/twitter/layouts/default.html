@@ -22,6 +22,7 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
+    {{{ analytics }}}
   </head>
 
   <body>
@@ -36,8 +37,8 @@
             {{/ site.navigation?to_pages }}
           </ul>
           <div class="social-nav pull-right">
-            <a href="http://github.com/{{ site.author.github }}"><i class="icon-github"></i></a>
-            <a href="http://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter"></i></a>
+            <a onclick="_gaq.push(['_trackEvent', 'github-btn', 'clicked'])" class="github-btn" href="http://github.com/{{ site.author.github }}"><i class="icon-github"></i></a>
+            <a onclick="_gaq.push(['_trackEvent', 'twitter-btn', 'clicked'])" class="twitter-btn" href="http://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter"></i></a>
           </div>
         </div>
       </div>
@@ -51,14 +52,13 @@
 
       <footer>
         <p>&copy; {{ site.author.name }} 2012
-          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+          with help from <a class="ruhoh-btn" href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+          and <a class="bootstrap-btn" href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
       </footer>
 
     </div> <!-- /container -->
 
     {{{ google_prettify }}}
-    {{{ analytics }}}
   </body>
 </html>
