@@ -89,10 +89,19 @@ html, body {
   color: white;
   text-decotation: none;
   margin: 6px 0 0 10px;
-  font-size: 28px;
+  font-size: 35px;
 }
 
 .social-nav a:hover {
   text-decoration: none;
   color: #08C;
+}
+
+.navbar-inner {
+  border-bottom: 1px grey solid;
+
+}
+
+.navbar .brand {
+  font-size: 26px;
 }
