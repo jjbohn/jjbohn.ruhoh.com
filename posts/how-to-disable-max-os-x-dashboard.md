@@ -1,6 +1,6 @@
 ---
 title: How to disable Mac OS X Dashboard
-date: '2012-01-03'
+date: '2013-01-03'
 description: Creating
 categories: [mac os x, cheat sheet]
 ---
