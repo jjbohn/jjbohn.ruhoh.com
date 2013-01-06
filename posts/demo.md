@@ -18,4 +18,4 @@ If you decide that you want it back, it's just a matter of flipping the boolean.
 
 `defaults write com.apple.dashboard mcx-disabled -boolean NO`
 
-As before, you'll need to login and logout to see the difference.
+As before, you'll need to logout and login to see the difference.
