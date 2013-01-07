@@ -2,7 +2,7 @@
 title: How to get your public IP address from the terminal
 date: '2013-01-07'
 description:
-categories: [cheat sheet]
+categories: [cheat sheet, linux, terminal]
 ---
 
 Came across this little command the other day. This does a simple GET request to http://ifconfig.me, which returns your IP address.
